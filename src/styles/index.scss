@@ -1,3 +1,119 @@
+html {
+  font-family: Roboto, sans-serif;
+  font-optical-sizing: auto;
+}
+
 body {
   margin: 0;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 200px;
+  border: 1px solid rgba(243, 243, 243, 1);
+  border-radius: 5px;
+  padding: 32px 16px 16px;
+  background-color: rgba(255, 255, 255, 1);
+
+  &__img {
+    display: block;
+    height: 134px;
+    width: 160px;
+    margin: 0 auto 40px;
+  }
+
+  &__title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(6, 11, 53, 1);
+    margin: 0 auto 4px;
+  }
+
+  &__code {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(97, 96, 112, 1);
+    margin: 0 auto 16px;
+  }
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 24px;
+}
+
+.stars {
+  display: flex;
+  width: fit-content;
+
+  &__star {
+    background-image: url(/src/images/star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 0.5px;
+    margin-right: 4px;
+    padding: 0;
+
+    &:nth-child(-n + 4) {
+      background-image: url(/src/images/star-active.svg);
+    }
+  }
+}
+
+.reviews__text {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgba(6, 11, 53, 1);
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 16px;
+
+  &__word {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(97, 96, 112, 1);
+  }
+
+  &__sum {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+  }
+}
+
+.button {
+  font-family: Roboto, sans-serif;
+  width: 166px;
+  height: 40px;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: rgba(0, 172, 220, 1);
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  text-align: center;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 172, 220, 1);
+    border: 1px solid rgba(0, 172, 220, 1);
+  }
 }
