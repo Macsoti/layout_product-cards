@@ -2,19 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 16px;
+  margin: 0 0 $space-md;
 
   &__word {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
+    font-size: $fs-sm;
+    font-weight: $fw-regular;
+    line-height: $lh-lg;
     color: $small-color;
   }
 
   &__sum {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 18px;
+    font-size: $fs-lg;
+    font-weight: $fw-bold;
+    line-height: $lh-lg;
     color: $main-color;
   }
 }
