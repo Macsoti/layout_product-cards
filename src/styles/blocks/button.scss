@@ -13,10 +13,10 @@
   font-size: $fs-md;
   font-weight: $fw-bold;
   line-height: $lh-md;
-
   color: $secondary-color;
-  background-color: $button-color;
+
   text-transform: uppercase;
+  background-color: $button-color;
 
   &:hover {
     border: $border-r solid $button-color;
