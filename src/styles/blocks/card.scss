@@ -4,6 +4,7 @@
   padding: $space-xl $space-md $space-md;
   border: $border-r solid $border-color;
   border-radius: $radius-md;
+  
   background-color: $secondary-color;
 
   &__img {
@@ -24,7 +25,7 @@
 
   &__code {
     margin: 0 0 $space-md;
-    
+
     font-size: $fs-xs;
     font-weight: $fw-regular;
     line-height: $lh-sm;
