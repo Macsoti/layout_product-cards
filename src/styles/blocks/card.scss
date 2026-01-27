@@ -1,9 +1,9 @@
 .card {
   box-sizing: border-box;
   width: $card-width;
+  padding: $space-xl $space-md $space-md;
   border: $border-r solid $border-color;
   border-radius: $radius-md;
-  padding: $space-xl $space-md $space-md;
   background-color: $secondary-color;
 
   &__img {
@@ -15,6 +15,7 @@
 
   &__title {
     margin: 0 0 $space-xs;
+
     font-size: $fs-sm;
     font-weight: $fw-medium;
     line-height: $lh-lg;
@@ -23,6 +24,7 @@
 
   &__code {
     margin: 0 0 $space-md;
+    
     font-size: $fs-xs;
     font-weight: $fw-regular;
     line-height: $lh-sm;

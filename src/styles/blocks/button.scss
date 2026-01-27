@@ -8,18 +8,17 @@
   padding: 0;
   border: $border-r solid transparent;
   border-radius: $radius-md;
-
-  background-color: $button-color;
   font-family: $font-main;
+  background-color: $button-color;
   font-size: $fs-md;
   font-weight: $fw-bold;
   line-height: $lh-md;
-  text-transform: uppercase;
   color: $secondary-color;
+  text-transform: uppercase;
 
   &:hover {
     border: $border-r solid $button-color;
-    background-color: $secondary-color;
     color: $button-color;
+    background-color: $secondary-color;
   }
 }
