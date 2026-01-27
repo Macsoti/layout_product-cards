@@ -2,23 +2,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: $btn-width;
   height: $btn-height;
   padding: 0;
   border: $border-r solid transparent;
   border-radius: $radius-md;
 
+  background-color: $button-color;
   font-family: $font-main;
   font-size: $fs-md;
   font-weight: $fw-bold;
   line-height: $lh-md;
-  color: $secondary-color;
-  background-color: $button-color;
   text-transform: uppercase;
+  color: $secondary-color;
 
   &:hover {
     border: $border-r solid $button-color;
-    color: $button-color;
     background-color: $secondary-color;
+    color: $button-color;
   }
 }

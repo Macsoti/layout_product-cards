@@ -1,17 +1,18 @@
 .stars {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 
     &__star {
+    width: $star-size;
+    height: $star-size;
+    margin-right: $space-xs;
+    padding: 0;
+    border-radius: $radius-sm;
+
     background-image: url(../images/star.svg);
     background-repeat: no-repeat;
     background-position: center;
-    height: $star-size;
-    width: $star-size;
-    border-radius: $radius-sm;
-    margin-right: $space-xs;
-    padding: 0;
   }
     &--1 &__star:nth-child(-n + 1),
     &--2 &__star:nth-child(-n + 2),

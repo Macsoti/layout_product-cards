@@ -8,24 +8,24 @@
 
   &__img {
     display: block;
-    height: $img-height;
     width: $img-width;
+    height: $img-height;
     margin: 0 auto $space-xxl;
   }
 
   &__title {
+    margin: 0 0 $space-xs;
     font-size: $fs-sm;
     font-weight: $fw-medium;
     line-height: $lh-lg;
     color: $main-color;
-    margin: 0 0 $space-xs;
   }
 
   &__code {
+    margin: 0 0 $space-md;
     font-size: $fs-xs;
     font-weight: $fw-regular;
     line-height: $lh-sm;
     color: $small-color;
-    margin: 0 0 $space-md;
   }
 }
